@@ -1,0 +1,136 @@
+.link{
+    color: black;
+    font-family: "Product Sans", sans-serif;
+    color: rgb(107,102,105);
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.imageLink{
+    margin-right:10px;
+}
+.advancedLink{
+    margin-right:40px;
+}
+.searchLink{
+    margin-right:40px;
+}
+
+.googleLogo{
+    width:384px;
+    height:216px;
+}
+.googleImagesLogo{
+    width:388px;
+    height:133px;
+}
+
+.searchBar {
+    border-radius: 30px 30px 30px 30px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: lightgrey;
+    width: 600px;
+    height: 48px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    filter: grayscale(100%);
+}
+.searchBar:hover{
+    box-shadow: rgb(173, 174, 176) 1px 2px 3px;
+    border-width: 0px;
+}
+.searchBar:focus{
+    outline: none;
+}
+
+.advancedSearchBar{
+    width: 520px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: grey;
+    filter: grayscale(100%);
+}
+.advancedSearchBar:focus{
+    outline: none;
+}
+.allSearchBar{
+    margin-inline:75.1px;
+}
+.thisSearchBar{
+    margin-inline:17.5px;
+}
+.anySearchBar{
+    margin-inline:52.3px;
+}
+.noneSearchBar{
+    margin-inline:44.1px;
+}
+
+.searchButton {
+    border-radius: 5px 5px 5px 5px;
+    border-style: hidden;
+    border-width: 1px;
+    background-color: rgb(243, 243, 245);
+    color: rgb(107,102,105);
+    font-family: "Product Sans", sans-serif;
+    padding-inline: 10px;
+    padding-block: 5px;
+}
+.searchButton:hover{
+    box-shadow: rgb(173, 174, 176) 0px 1px 2px;
+}
+
+.advancedSearchButton{
+    border-radius: 2px 2px 2px 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(75, 141, 248);
+    width: 110px;
+    height: 27px;
+    background-color: rgb(75, 141, 248);
+    color: white;
+    font-family: "Product Sans", sans-serif;
+    font-size: 11px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    margin-left: 620px;
+    margin-block: 13px;
+}
+.advancedSearchButton:hover{
+    background-color: rgb(85, 151, 258);
+}
+
+
+.titleText{
+    margin-left: 45px;
+    padding-block: 10px;
+    font-family: "Product Sans", sans-serif;
+    font-size:16px;
+}
+
+.advancedSearchTitle{
+    border-style: hidden;
+    background-color: transparent;
+    margin-left: 38px;
+    color: indianred;
+    font-family: "Product Sans", sans-serif;
+    font-size: 20px;
+}
+.advancedSearchText{
+    margin-left: 45px;
+    padding-block: 8px;
+    font-family: "Product Sans", sans-serif;
+    font-size:13px;
+    color:grey;
+}
+
+.solid {
+    border-top: 2px solid grey;
+}
+
+.mx-auto{
+    width: fit-content;
+}
